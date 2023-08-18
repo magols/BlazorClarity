@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <Version>1.0.0</Version>
+    <Authors>Magnus Olsson</Authors>
+    <PackageId>Magols.Blazor.Clarity</PackageId>
+    <Description>Use MS Clarity tracking on your Blazor projects</Description>
+    <PackageProjectUrl>ss</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
