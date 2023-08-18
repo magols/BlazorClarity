@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,7 +9,12 @@
     <Authors>Magnus Olsson</Authors>
     <PackageId>Magols.Blazor.Clarity</PackageId>
     <Description>Use MS Clarity tracking on your Blazor projects</Description>
-    <PackageProjectUrl>ss</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/magols/BlazorClarity</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/magols/BlazorClarity</RepositoryUrl>
+
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,4 +26,9 @@
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
