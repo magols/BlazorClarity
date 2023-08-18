@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Magnus Olsson</Authors>
     <PackageId>Magols.Blazor.Clarity</PackageId>
     <Description>Use MS Clarity tracking on your Blazor projects</Description>
